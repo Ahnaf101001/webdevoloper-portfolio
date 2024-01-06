@@ -6,6 +6,9 @@ body{
 
 header{
     background: #FFF8F3;
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 nav{
@@ -84,12 +87,98 @@ button:hover{
 }
 
 .Profile-pic{
-    width: 479px;
-    height: 480px;
+    width: 719px;
+    height: 720px;
 }
 
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+.banner-intro{
+    color: var(--Dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.Name{
+    color: var(--Dark-01, #181818);
+    font-family: Open Sans;
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.Motivation{
+    color: var(--Dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.banner-content{
+    max-width: 500px;
+}
+
+.sec-title{
+    color: var(--Dark-01, #181818);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.about{
+    padding: 130px;
+    border-radius: 5px;
+    background: #FFF8F3;
+    margin: 230px;
+    align-items: center;
+    justify-content: column;
+}
+.about-me{
+    color: var(--Dark-03, #757575);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.about-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav{
+    text-align: center;
+}
+
+.nav-label{
+    color: var(--Dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.label-content{
+    color: var(--Dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
 }
