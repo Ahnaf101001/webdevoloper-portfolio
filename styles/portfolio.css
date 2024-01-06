@@ -283,6 +283,7 @@ button:hover{
 
 footer{
     background: #FFF8F3;
+    gap: 200px;
     display: flex;
     margin-top: 100px;
     padding: 130px 200px;
@@ -296,3 +297,18 @@ footer{
     font-weight: 400;
     line-height: 28px;
 }
+.footer-col{
+    width: 50%;
+}
+
+form input,textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 100%;
+}
+
