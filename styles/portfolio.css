@@ -4,10 +4,15 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+header{
+    background: #FFF8F3;
+}
+
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 .logo{
     color: var(--Dark-01, #181818);
@@ -23,9 +28,7 @@ span{
     color: #FD6E0A;
     font-family: Open Sans;
     font-size: 45px;
-    font-style: normal;
     font-weight: 800;
-    line-height: normal;
 }
 
 nav ul{
@@ -50,11 +53,10 @@ button{
     color: var(--White-Color, #FFF);
     font-family: Open Sans;
     font-size: 20px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     padding: 18px 30px;
 }
+
 button:hover{
     background: white;
     color: #FD6E0A;
@@ -62,8 +64,32 @@ button:hover{
     border-radius: 5px;
     font-family: Open Sans;
     font-size: 20px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     cursor: pointer;
+}
+
+.Contact{
+    background: transparent;
+    border-radius: 5px;
+    border: solid 2px #FD6E0A;
+    color: var(--White-Color, #FD6E0A);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.Contact:hover{
+    background: #FD6E0A;
+    color: white;
+}
+
+.Profile-pic{
+    width: 479px;
+    height: 480px;
+}
+
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
 }
