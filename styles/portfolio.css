@@ -232,10 +232,8 @@ button:hover{
 
 .resume{
     display: flex;
-}
-
-.res-col{
-    
+    gap: 50px;
+    margin: 150px;
 }
 
 .res-title{
@@ -272,4 +270,8 @@ button:hover{
     font-style: normal;
     font-weight: 400;
     line-height: 28px;
+}
+
+.down-cv{
+    text-align: center;
 }
