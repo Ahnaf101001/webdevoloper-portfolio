@@ -30,6 +30,15 @@ nav{
     line-height: normal;
 }
 
+nav a{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+nav a:hover{
+    color: #FD6E0A;
+}
+
 span{
     color: #FD6E0A;
     font-family: Open Sans;
@@ -61,6 +70,7 @@ button{
     font-size: 20px;
     font-weight: 700;
     padding: 18px 30px;
+    transition: .3s;
 }
 
 button:hover{
@@ -82,6 +92,7 @@ button:hover{
     font-family: Open Sans;
     font-size: 20px;
     font-weight: 700;
+    transition: .3s;
 }
 
 .Contact:hover{
@@ -342,6 +353,8 @@ i{
     }
 
     nav{
+        width: 300px;
+        margin: auto;
         display: flex;
         flex-direction: column;
     }
@@ -357,10 +370,7 @@ i{
     }
 
     .Profile-pic{
-        width: 100%;
-        height: 100%;
         position: relative;
-        left: 115px;
     }
 
     .about{
@@ -370,10 +380,8 @@ i{
         justify-content: center;
         align-items: center;
         align-content: center;
-        padding: 130px;
         border-radius: 5px;
         background: #FFF8F3;
-        margin: 230px;
         margin: auto;
         margin-top: 150px;
         margin-bottom: 150px;
@@ -397,7 +405,6 @@ i{
     }
 
     .skills{
-        gap: 80px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -418,11 +425,11 @@ i{
         margin: auto;
         margin-top: 150px;
         margin-bottom: 150px;
+        width: 335px;
     }
 
     footer{
         background: #FFF8F3;
-        gap: 200px;
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -430,7 +437,6 @@ i{
         align-items: center;
         margin: auto;
         margin-top: 150px;
-        padding: 130px 200px;
     }
     
     .footer-social{
@@ -456,6 +462,11 @@ i{
         background: #FFF;
         border: 0;
         width: 275px;
+    }
+
+    .res-title{
+        width: 300px;
+        margin: auto;
     }
 
 }
